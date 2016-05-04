@@ -76,6 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E6A6AFB91CD9C7200068BCE8 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA45371CD8775A00793716 /* SkyCast.xcdatamodeld */,
+				E6DA453C1CD8775A00793716 /* LaunchScreen.storyboard */,
+				E6DA453A1CD8775A00793716 /* Assets.xcassets */,
+				E6DA453F1CD8775A00793716 /* Info.plist */,
+				E6DA45301CD8775A00793716 /* AppDelegate.swift */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
 		E6DA45241CD8775A00793716 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +111,9 @@
 		E6DA452F1CD8775A00793716 /* SkyCast */ = {
 			isa = PBXGroup;
 			children = (
-				E6DA45301CD8775A00793716 /* AppDelegate.swift */,
+				E6A6AFB91CD9C7200068BCE8 /* SupportFiles */,
 				E6DA45321CD8775A00793716 /* ViewController.swift */,
 				E6DA45341CD8775A00793716 /* Main.storyboard */,
-				E6DA453A1CD8775A00793716 /* Assets.xcassets */,
-				E6DA453C1CD8775A00793716 /* LaunchScreen.storyboard */,
-				E6DA453F1CD8775A00793716 /* Info.plist */,
-				E6DA45371CD8775A00793716 /* SkyCast.xcdatamodeld */,
 			);
 			path = SkyCast;
 			sourceTree = "<group>";
@@ -491,6 +499,7 @@
 				E6DA455A1CD8775A00793716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6DA455B1CD8775A00793716 /* Build configuration list for PBXNativeTarget "SkyCastTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +508,7 @@
 				E6DA455D1CD8775A00793716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6DA455E1CD8775A00793716 /* Build configuration list for PBXNativeTarget "SkyCastUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +517,7 @@
 				E6DA45601CD8775A00793716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
